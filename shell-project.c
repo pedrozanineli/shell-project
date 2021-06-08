@@ -10,8 +10,6 @@
 
 #define CLEAR "CLS"
 
-// int wins;
-
 int main(){
 
     printf("Shell project - Pedro Zanineli\n\n");
