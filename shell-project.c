@@ -37,7 +37,7 @@ int main(){
                         printf("- dir: show directory's path\n");
                         printf("- cfile: clear file\n");
                         printf("- cpfile: copy file\n");
-                        printf("- rps - play rock, paper and scissors\n");
+                        printf("- rps: play rock, paper and scissors\n");
                         printf("- clear: clear shell\n");
                         printf("- exit: end shell\n");
 
