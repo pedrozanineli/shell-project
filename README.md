@@ -10,7 +10,7 @@ Furthermore, it is essencial to understand the concept of <strong>shell</strong>
 
 ---
 
-By running the program, it is possible to see the following visual interface and execute a command. It is possible to see it in the following example, as well as the command "help", important to understand the main functions of the shell.
+By running the program, it is possible to see the following visual interface and execute a command. It is also possible to see it in the following example, as well as the command "help", important to understand the main functions of the shell.
 
 ```text
 Shell Project - Pedro Zanineli
@@ -28,4 +28,30 @@ Shell Project - Pedro Zanineli
 >
 ```
 
+With the command "dir", we can see a similar output to the Linux shell command "pwd", or print working directory
+
+```text
+Shell Project - Pedro Zanineli
+
+> dir
+Current working directory: C:\Users\Pedro-Zanineli\Desktop\Programming-Projects\Shell
+>
+```
+
 ### Files Disposal
+
+In the project-shell.c file, where the "main" function is alocated, there is a switch-case method, executing a function according to the user input. Since it is necessary to use this method with a number char, the method "conversor" makes the conversion between the command input to the correct char option.
+
+For this reason, there is a file dedicated to the conversor method, and also to the "rps" function - play rock, paper, and scissors - demanding three different files for the project (main file, the C library and the header for the C lib).
+
+> shell-project.c: main file;
+
+> shell-lib.c: important methods;
+
+> shell-lib.h: header for the shell-lib.c.
+
+Once it is needed to compile the main file with the C library, the following command was executed in a Linux terminal with the GNU compiler collection (GCC):
+
+```text
+gcc shell-project.c shell-lib.c -o compiled-shell
+```
