@@ -2,9 +2,9 @@
 
 ---
 
-An important part in the study of Computer Architecture - how the data is going to be transfered, processed, exhibited and how to computer's hardware work in this proccess - is the Operating Systems, the software responsable for the basic functions of a machine.
+An important part in the study of Computer Architecture - how the data is going to be transferred, processed, exhibited, and how to computer's hardware work in this process - is the Operating system, the software responsible for the basic functions of a machine.
 
-Furthermore, it is essencial to understand the concept of <strong>shell</strong> as a OS service offered for communication between the user and a program. Therefore, this project has the purpose to create a command-line-interface (CLI) with the objective to understand more this essencial machine part.
+Furthermore, it is essential to understand the concept of a <strong>shell</strong> as an OS service offered for communication between the user and a program. Therefore, this project has the purpose to create a command-line interface (CLI) to understand more this essential machine part.
 
 ### Main Functions
 
@@ -40,9 +40,9 @@ Current working directory: C:\Users\Pedro-Zanineli\Desktop\Programming-Projects\
 
 ### Files Disposal
 
-In the project-shell.c file, where the "main" function is alocated, there is a switch-case method, executing a function according to the user input. Since it is necessary to use this method with a number char, the method "conversor" makes the conversion between the command input to the correct char option.
+In the project-shell.c file, where the "main" function is located, there is a switch-case method, executing a function according to the user input. Since it is necessary to use this method with a number char, the method "conversor" makes the conversion between the command input to the correct char option.
 
-For this reason, there is a file dedicated to the conversor method, and also to the "rps" function - play rock, paper, and scissors - demanding three different files for the project (main file, the C library and the header for the C lib).
+For this reason, there is a file dedicated to the conversion method, and also to the "rps" function - play rock, paper, and scissors - demanding three different files for the project (main file, the C library, and the header for the C lib).
 
 > shell-project.c: main file;
 
